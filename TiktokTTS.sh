@@ -6,8 +6,6 @@ do
     STR+="%20"
 done
 
-echo ${STR}
-
 unameOut="$(uname -s)"
 
 case "${unameOut}" in
